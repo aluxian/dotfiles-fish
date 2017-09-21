@@ -32,6 +32,7 @@ SET fish_pager_color_completion:\x1d
 SET fish_pager_color_description:B3A06D\x1eyellow
 SET fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SET fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SET fish_prompt_pwd_dir_length:0
 SET fish_term24bit:1
 SET fish_user_abbreviations:ga\x20git\x20add\x1egs\x20git\x20status\x1egd\x20git\x20diff\x1egm\x20git\x20merge\x1egr\x20git\x20rebase\x1egp\x20git\x20push\x1egco\x20git\x20checkout\x1egcn\x20git\x20clone\x1egpl\x20git\x20pull\x1egam\x20git\x20commit\x20\x2d\x2damend\x1eni\x20npm\x20install\x1enu\x20npm\x20uninstall\x1enpr\x20npm\x20prune\x1ens\x20npm\x20start\x1ent\x20npm\x20test\x1enr\x20npm\x20run\x1enw\x20npm\x20run\x20watch\x1ema\x20docker\x2dmachine\x1edk\x20docker\x1egf\x20git\x20fetch\x1egw\x20gulp\x20watch\x1egc\x20git\x20commit\x1edc\x20docker\x2dcompose\x1egb\x20git\x20branch\x1egrc\x20git\x20rebase\x20\x2d\x2dcontinue\x1egrs\x20git\x20rebase\x20\x2d\x2dskip\x1egplr\x20git\x20pull\x20\x2d\x2drebase\x1egl\x20git\x20log\x20\x2d\x2dgraph
 SET fish_user_paths:/usr/local/opt/fzf/bin\x1e/usr/local/sbin

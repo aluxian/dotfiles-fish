@@ -1,5 +1,5 @@
 # https://github.com/oh-my-fish/plugin-sudope
-function sudope -d "Quickly toggle sudo prefix"
+function sudope
   # save the current command buffer and cursor position
   set -l command_buffer (commandline)
   set -l cursor_position (commandline -C)

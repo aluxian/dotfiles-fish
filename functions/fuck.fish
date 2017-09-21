@@ -1,5 +1,5 @@
 # https://github.com/nvbn/thefuck/wiki/Shell-aliases
-function fuck -d "Correct your previous console command"
+function fuck
   set -l fucked_up_command (commandline)
 
   if test -z $fucked_up_command
