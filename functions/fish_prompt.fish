@@ -1,3 +1,7 @@
 function fish_prompt
-  echo -n -s (set_color $fish_color_cwd) (prompt_pwd) (set_color normal) (__fish_git_prompt) "> "
+  echo -s (set_color $fish_color_cwd) (prompt_pwd) \
+    (set_color yellow) (__fish_git_prompt) \
+    (set_color blue) (__kube_prompt) \
+    (set_color normal)
+  echo -s (set_color $fish_color_cwd) "~" (set_color normal) "> "
 end
