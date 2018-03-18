@@ -5,8 +5,7 @@ function fish_prompt
     set last_status_color "red"
   end
 
-  echo -s \
-    (set_color $last_status_color) $last_status \
+  echo -s (set_color $last_status_color) "[" $last_status "]" \
     (set_color yellow) (__fish_git_prompt) \
     (set_color blue) (__kube_prompt) \
     (set_color $fish_color_cwd) " " (prompt_pwd) \
