@@ -1,3 +1,6 @@
 [submodule "fish-kubectl-completions"]
 	path = fish-kubectl-completions
 	url = https://github.com/evanlucas/fish-kubectl-completions
+[submodule "fish-kube-prompt"]
+	path = fish-kube-prompt
+	url = https://github.com/aluxian/fish-kube-prompt
